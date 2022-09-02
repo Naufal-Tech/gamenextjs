@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Merriweather,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+  background-color: #181818;
+  color: #e5e7eb;
+  font-size: 17px;
+}
+
+textarea, input, button{
+  font-family: inherit;
+  font-size: inherti;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+a{ 
+  color: inherit;
+  text-decoration: none;
+}
+
+.load-more{
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+body::-webkit-scrollbar{
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(110.42deg, #CF57A3 29.2%, #4731B6 63.56%);
+  border-radius: 15px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(11.42deg, #CF57A3 29.2%, #4731B6 63.56%);
+}
